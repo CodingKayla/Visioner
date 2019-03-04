@@ -8,6 +8,18 @@
   version = "v0.36.0"
 
 [[projects]]
+  name = "github.com/fogleman/gg"
+  packages = ["."]
+  revision = "9db508d34a2da0d0a3244cf73bb605e2c00c6229"
+  version = "v1.2.0"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/golang/freetype"
+  packages = ["raster","truetype"]
+  revision = "e2365dfdc4a05e4b8299a783240d4a7d5a65d4e4"
+
+[[projects]]
   name = "github.com/golang/protobuf"
   packages = ["proto","protoc-gen-go/descriptor","ptypes","ptypes/any","ptypes/duration","ptypes/empty","ptypes/timestamp","ptypes/wrappers"]
   revision = "c823c79ea1570fb5ff454033735a8e68575d1d0f"
@@ -20,10 +32,22 @@
   version = "v2.0.3"
 
 [[projects]]
+  branch = "master"
+  name = "github.com/llgcode/draw2d"
+  packages = [".","draw2dbase","draw2dimg"]
+  revision = "f52c8a71aff06ab8df41843d33ab167b36c971cd"
+
+[[projects]]
   name = "go.opencensus.io"
   packages = [".","exemplar","internal","internal/tagencoding","plugin/ocgrpc","plugin/ochttp","plugin/ochttp/propagation/b3","stats","stats/internal","stats/view","tag","trace","trace/internal","trace/propagation","trace/tracestate"]
   revision = "2b5032d79456124f42db6b7eb19ac6c155449dc2"
   version = "v0.19.0"
+
+[[projects]]
+  branch = "master"
+  name = "golang.org/x/image"
+  packages = ["draw","font","font/basicfont","font/plan9font","math/f64","math/fixed"]
+  revision = "0694c2d4d067f97ebef574d63a763ee8ab559da7"
 
 [[projects]]
   branch = "master"
@@ -76,6 +100,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "fff0a6d3a9476e556dad565ae2c463a704c922b648172e5ad3b30adb20ae5e7e"
+  inputs-digest = "ef8dedd435d69fca132cd2b5341297a09087048797eed27a8b9473287fc91e1a"
   solver-name = "gps-cdcl"
   solver-version = 1
